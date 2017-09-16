@@ -7,4 +7,13 @@ target 'HLBLPay' do
 
   # Pods for HLBLPay
 pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'FMDB'
+pod 'MBProgressHUD'
+
+
+
+
 end

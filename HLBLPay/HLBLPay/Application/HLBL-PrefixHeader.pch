@@ -1,0 +1,32 @@
+//
+//  HLBL-PrefixHeader.pch
+//  HLBLPay
+//
+//  Created by 吴园平 on 16/09/2017.
+//  Copyright © 2017 WuYuanPing. All rights reserved.
+//
+
+#ifndef HLBL_PrefixHeader_pch
+#define HLBL_PrefixHeader_pch
+
+//app common
+#import "AppCommonDefine.h"
+
+
+//category
+#import "UIView+YP.h"
+
+
+//Third Lib
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "MJRefresh.h"
+//#import "UIImageView+WebCache.h"  
+#import "UIButton+WebCache.h"
+
+
+
+
+
+
+#endif
