@@ -34,6 +34,10 @@
 		AA4EAA191F6D82DF00536764 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EAA181F6D82DF00536764 /* BaseView.m */; };
 		AA4EAA1C1F6D841400536764 /* BaseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EAA1B1F6D841400536764 /* BaseDataSource.m */; };
 		AA4EAA1F1F6D879A00536764 /* YPHUDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EAA1E1F6D879A00536764 /* YPHUDHelper.m */; };
+		AA4EAA231F6E7D9F00536764 /* YPAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EAA221F6E7D9F00536764 /* YPAPI.m */; };
+		AA4EAA291F6E7ED600536764 /* YPHttpResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EAA281F6E7ED600536764 /* YPHttpResult.m */; };
+		AA4EAA2C1F6E7F1E00536764 /* YPNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EAA2B1F6E7F1E00536764 /* YPNetworkManager.m */; };
+		AA4EAA2F1F6E80A800536764 /* YPDbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4EAA2E1F6E80A800536764 /* YPDbCache.m */; };
 		DAE6EBA28DE679EF995217BA /* libPods-HLBLPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7AEB681B93958AE2FD2B26 /* libPods-HLBLPay.a */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +96,14 @@
 		AA4EAA1B1F6D841400536764 /* BaseDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataSource.m; sourceTree = "<group>"; };
 		AA4EAA1D1F6D879A00536764 /* YPHUDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPHUDHelper.h; sourceTree = "<group>"; };
 		AA4EAA1E1F6D879A00536764 /* YPHUDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPHUDHelper.m; sourceTree = "<group>"; };
+		AA4EAA211F6E7D9F00536764 /* YPAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPAPI.h; sourceTree = "<group>"; };
+		AA4EAA221F6E7D9F00536764 /* YPAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPAPI.m; sourceTree = "<group>"; };
+		AA4EAA271F6E7ED600536764 /* YPHttpResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPHttpResult.h; sourceTree = "<group>"; };
+		AA4EAA281F6E7ED600536764 /* YPHttpResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPHttpResult.m; sourceTree = "<group>"; };
+		AA4EAA2A1F6E7F1E00536764 /* YPNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNetworkManager.h; sourceTree = "<group>"; };
+		AA4EAA2B1F6E7F1E00536764 /* YPNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNetworkManager.m; sourceTree = "<group>"; };
+		AA4EAA2D1F6E80A800536764 /* YPDbCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPDbCache.h; sourceTree = "<group>"; };
+		AA4EAA2E1F6E80A800536764 /* YPDbCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPDbCache.m; sourceTree = "<group>"; };
 		DF7AEB681B93958AE2FD2B26 /* libPods-HLBLPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLBLPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,6 +151,7 @@
 			children = (
 				AA4EA9C61F6AD3BA00536764 /* Application */,
 				AA4EA9D41F6AD3CF00536764 /* Business */,
+				AA4EAA201F6E7D2300536764 /* Network */,
 				AA4EA9D51F6AD3D800536764 /* Resource */,
 				AA4EA9CE1F6AD3C600536764 /* Base */,
 				AA3CBCBA1F683655000347C6 /* ViewController.h */,
@@ -271,6 +284,22 @@
 			);
 			path = Resource;
 			sourceTree = "<group>";
+		};
+		AA4EAA201F6E7D2300536764 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AA4EAA211F6E7D9F00536764 /* YPAPI.h */,
+				AA4EAA221F6E7D9F00536764 /* YPAPI.m */,
+				AA4EAA2D1F6E80A800536764 /* YPDbCache.h */,
+				AA4EAA2E1F6E80A800536764 /* YPDbCache.m */,
+				AA4EAA271F6E7ED600536764 /* YPHttpResult.h */,
+				AA4EAA281F6E7ED600536764 /* YPHttpResult.m */,
+				AA4EAA2A1F6E7F1E00536764 /* YPNetworkManager.h */,
+				AA4EAA2B1F6E7F1E00536764 /* YPNetworkManager.m */,
+			);
+			name = Network;
+			path = HLBLPay/Network;
+			sourceTree = SOURCE_ROOT;
 		};
 		DBADB2B4C02655D93C687393 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -413,7 +442,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA4EAA091F6D574E00536764 /* YPRefreshViewController.m in Sources */,
+				AA4EAA2F1F6E80A800536764 /* YPDbCache.m in Sources */,
 				AA4EAA131F6D7F5100536764 /* YPCommonTool.m in Sources */,
+				AA4EAA291F6E7ED600536764 /* YPHttpResult.m in Sources */,
 				AA4EA9FA1F6CF80900536764 /* BaseTabBarController.m in Sources */,
 				AA4EA9CD1F6AD3BA00536764 /* main.m in Sources */,
 				AA4EA9EE1F6AE3D000536764 /* UIView+YP.m in Sources */,
@@ -434,6 +465,8 @@
 				AA4EA9E21F6ADDD900536764 /* BaseModel.m in Sources */,
 				AA4EA9EB1F6AE17300536764 /* UIImage+YP.m in Sources */,
 				AA3CBCBC1F683655000347C6 /* ViewController.m in Sources */,
+				AA4EAA231F6E7D9F00536764 /* YPAPI.m in Sources */,
+				AA4EAA2C1F6E7F1E00536764 /* YPNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
